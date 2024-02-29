@@ -1,0 +1,37 @@
+body{
+    background-image:linear-gradient(45deg,rgb(158, 251, 243),rgb(21, 226, 209),rgb(0, 195, 255));
+
+}
+.form{
+
+ background-color: rgb(0, 0, 0);
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ padding: 15px;
+ border-radius:15px ;
+ color: white;
+ 
+}
+input{
+ padding: 11px;
+ border: none;
+ outline: none;
+ border-radius:11px ;
+ font-size: 15px;
+}
+button{
+
+    width: 50%;
+    padding: 7px;
+   color: black;
+   font-size: 12px;
+   transform: translate(50%);
+}
+button:hover{
+    background-color: rgb(0, 249, 25);
+}
+a{
+    text-decoration: none;
+}
